@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pesquisa de satisfação</title>
+</head>
+<body>
+    <h1>Pesquisa de satisfação</h1>
+    <h2>Identificação</h2>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" placeholder="Seu nome" id="name"> <br>
+        <label for="email">E-mail:</label>
+        <input type="email" placeholder="Seu e-mail" id="email"> <br>
+        <label for="tel">Telefone</label>
+        <input type="tel" placeholder="Seu telefone" id="tel"> <br>
+    </form>
+    <h2>Questionário</h2>
+    <form>
+        <label>Qual ambiente do jogo você, no geral, mais gosta?</label> <br>
+        <input type="radio" id="aqua" name="ambient">
+        <label for="aqua">Aquático</label>
+        <input type="radio" id="terae" name="ambient">
+        <label for="terae">Terrestre</label>
+        <input type="radio" id="aer" name="ambient">
+        <label for="aer">Aéreo</label> <br> <br>
+
+        <label>Qual domesticável do jogo você, no geral, mais gosta?</label> <br>
+        <input type="radio" id="dog" name="pet">
+        <label for="dog">Cão</label>
+        <input type="radio" id="cat" name="pet">
+        <label for="cat">Gato</label>
+        <input type="radio" id="horse" name="pet">
+        <label for="horse">Cavalo</label>
+        <input type="radio" id="turtle" name="pet">
+        <label for="turtle">Tartaruga</label>
+        <input type="radio" id="parrow" name="pet">
+        <label for="parrow">Papagaio</label> <br> <br>
+
+        <label>Dentre os listados, qual aspecto do jogo você, em geral, acha mais incompleto</label> <br>
+        <label for="aspect">Selecione:</label>
+        <select id="aspect">
+            <option>Animais</option>
+            <option>Monstros</option>
+            <option>Combate</option>
+            <option>Exploração</option>
+            <option>Construção</option>
+            <option>Recursos</option>
+            <option>Ferramentas</option>
+            <option>Multiplayer</option>
+            <option>Otimização</option>
+            <option>Alimentação</option>
+            <option>Opções decorativas</option>
+            <option>Personagem</option>
+            <option>História</option>
+        </select> <br> <br> <br>
+        <input type="checkbox" id="terms">
+        <label for="terms">Eu autorizo o compartilhamento dessas informações para terceiros</label> <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
