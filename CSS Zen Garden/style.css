@@ -1,7 +1,27 @@
+
 .page-wrapper{
     width:80%;
     max-width:1280px;
     margin:auto;
+
+    position:relative;
+}
+
+.explanation{
+    width:60%;
+    margin-right:35%;
+    border-right:1px solid #1f295c;
+    padding-right:2%;
+    margin-bottom:10%;
+}
+
+.design-selection{
+    position:absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+    
 }
 
 #zen-intro{
@@ -64,6 +84,7 @@ h2{
     font-size: 1.4rem;
 }
 h3{
+    text-align: center;
     font-size: 1.2rem;
 }
 .summary{
