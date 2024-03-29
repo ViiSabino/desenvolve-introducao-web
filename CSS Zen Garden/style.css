@@ -1,35 +1,58 @@
-/*1. Aspectos gerais. Aplique os seguintes estilos na estrutura geral da página.
+.page-wrapper{
+    width:80%;
+    max-width:1280px;
+    margin:auto;
+}
 
-a. Defina um tamanho fixo para a página inteira
+#zen-intro{
+    height: 550px;
+}
+#design-archives{
+    display: none;
+}
 
-b. Defina uma fonte do tipo sans-serif para a página inteira
+header{
+    background-color: #5D4070;
+    color:#D6B0F0;
+}
 
-c. Indente os parágrafos em 1em
+header h1, header h2{
+    display: inline-block;
+}
 
-2. Títulos. Alinhe todos os títulos para o centro ou a direita.
+header h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
 
-a. Defina o tamanho do h1 em 1.8rem
+.sidebar ul{
+    list-style-type: none;
+}
+.sidebar ul li{
+    margin: 1.2em;
+    text-align: center;
+}
 
-b. Defina o tamanho do h2 em 1.4rem
-
-c. Defina o tamanho do h3 em 1.2rem
-
-3. Seções de resumo e principal. Localize os elementos que representam a seção de resumo e principal da página, e aplique nelas:
-
-a. Alinhamento a direita ou centralizado para a seção de resumo.
-
-b. Espaçamento entre as linhas de 1.5 para os parágrafos da seção principal.
-
-4. Abreviaturas. Customize todos as abreviaturas para que a fonte seja carregada em small-caps .
-*/
+footer{
+    background-color: #5D4070;
+    color:#D6B0F0;
+    margin: 4%;
+    padding: 2%
+}
+footer a{
+    font-family: 'Trebuchet MS', sans-serif;
+    color:#D6B0F0;
+    border:2px solid #8A729B;
+    padding:0.5em;
+}
 
 html {
     font-size: 20px;
     font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     text-indent: 1em;
 
-    background:#5D4070;
-    color: #D6B0F0;
+    background:#D6B0F0;
+    color: #5D4070;
 }
 a{
     color:#8A729B;
