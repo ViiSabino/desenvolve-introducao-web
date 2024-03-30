@@ -20,7 +20,15 @@
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
-    
+}
+
+.design-selection li{
+    border-top:1px solid #1f295c;
+}
+
+.design-selection li:last-child{
+    padding-bottom:1em;
+    border-bottom:1px solid #1f295c;
 }
 
 .benefits{
@@ -56,6 +64,14 @@
 }
 #design-archives{
     display: none;
+}
+#zen-supporting  p:first-of-type::first-letter{
+    float:left;
+    line-height:0.3em;
+    letter-spacing:-0.3em;
+    font-size:3em;
+    font-family:'Times New Roman', Times, serif;
+    
 }
 
 header{
@@ -97,8 +113,12 @@ footer a{
     display:inline-block;
     font-family: 'Trebuchet MS', sans-serif;
     color:#D6B0F0;
+    font-weight:bold;
     border:2px solid #8A729B;   
     padding:0.5em;
+}
+footer a:visited{
+    font-weight:normal;
 }
 
 html {
@@ -109,8 +129,16 @@ html {
     background:#D6B0F0; 
     color: #5D4070;
 }
-a{
+
+a {
+    font-weight:bold;
+    color:#45214A;
+}
+a:hover{
     color:#8A729B;
+}
+a:visited{
+    font-weight: normal;
 }
 h1{
     font-size: 1.8rem;
