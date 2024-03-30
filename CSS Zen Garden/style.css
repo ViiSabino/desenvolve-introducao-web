@@ -71,7 +71,6 @@
     letter-spacing:-0.3em;
     font-size:3em;
     font-family:'Times New Roman', Times, serif;
-    
 }
 
 header{
@@ -158,4 +157,43 @@ h3{
 }
 abbr{
     font-variant: small-caps;
+}
+
+/* Layout Mobile*/
+@media screen and (max-width: 768px) {
+    #zen-intro{
+        height: auto;
+    }
+    
+    .explanation{
+        width:100%;
+        margin:auto;
+        border: none;
+    }
+    
+    .design-selection{
+        position:static;
+    }   
+    .participation{
+        display:flex;
+        flex-flow: column wrap;
+    }
+
+    p{
+        text-indent:0em;
+    }
+    #zen-supporting  p:first-of-type::first-letter{
+        letter-spacing:0.01em;
+    }
+} 
+
+/*Layout Impressão*/
+@media print{
+    html{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    header{
+        background-color: #D6B0F0;
+        color:#5D4070;
+    }
 }
